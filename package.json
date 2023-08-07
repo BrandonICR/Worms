@@ -1,0 +1,13 @@
+{
+  "name": "gusanito",
+  "version": "1.0.0",
+  "description": "Game 'Gusanito'",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "tsc ./assets/js/game.ts | explorer index.html",
+    "clear": "del .\\assets\\js\\game.js"
+  },
+  "author": "BrandonICR",
+  "license": "ISC"
+}
